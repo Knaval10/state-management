@@ -71,9 +71,9 @@ const App = () => {
     },
   ]);
   return (
-    <Store>
-      <RouterProvider router={router} />
-    </Store>
+    // <Store>
+    <RouterProvider router={router} />
+    // </Store>
   );
 };
 

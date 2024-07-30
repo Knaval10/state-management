@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, createContext } from "react";
 
-export const navbar_title_Context = React.createContext({});
-export const count_Context = React.createContext({});
+export const navbar_title_Context = createContext({});
+export const count_Context = createContext({});
 const Store = ({ children }) => {
   const [navbar_title, setNavbar_title] = useState("");
   const [count, setCount] = useState(0);
